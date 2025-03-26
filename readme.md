@@ -18,3 +18,7 @@ irei fazer um comando no container passado
 
 -- docker exec -it id/nome comando
 irei conseguir acessar o terminal de maneira iterativa  
+
+
+-- docker run --rm imagem
+quando voce sair do container ele vai ser removido instantaneamente 
