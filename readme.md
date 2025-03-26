@@ -31,3 +31,8 @@ retorna todos os id de container
 
 -- consigo juntar um comando no outro
 docker rm $(docker ps -a -q)
+
+
+
+-- mapeando porta
+docker run -p minhaPorta:portaContainer imagem
