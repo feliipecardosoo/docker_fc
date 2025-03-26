@@ -43,3 +43,17 @@ docker run -p minhaPorta:portaContainer imagem
 
 docker run -d -p 8080:80 -v $(pwd)/pasta:/usr/share/nginx/html nginx
 -- o parametro -v indica a criação de um bind mount, dps passo o parametro do caminho que esta a pasta no meu pc e dps o caminho da pasta no meu docker
+
+
+------------------------------------------------- VOLUMES -------------------------------------------------
+
+docker volume create nome_volume
+-- criando um volume
+
+
+docker volume prune
+-- exclui todos os volumes
+
+
+docker volume inspect nome
+-- retorna um json com volumes
