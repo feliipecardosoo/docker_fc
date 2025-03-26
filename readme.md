@@ -14,3 +14,7 @@ docker run -d nome
 
 -- docker exec id/nome comando
 irei fazer um comando no container passado 
+
+
+-- docker exec -it id/nome comando
+irei conseguir acessar o terminal de maneira iterativa  
