@@ -36,3 +36,7 @@ docker rm $(docker ps -a -q)
 
 -- mapeando porta
 docker run -p minhaPorta:portaContainer imagem
+
+
+
+----------------------------------------- BIND MOUNT X VOLUMES -----------------------------------------
