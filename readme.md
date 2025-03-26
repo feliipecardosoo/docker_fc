@@ -39,3 +39,6 @@ docker run -p minhaPorta:portaContainer imagem
 
 
 
+------------------------------------------------- BIG MOUNT -------------------------------------------------
+
+docker run -d -p 8080:80 -v $(pwd)/pasta/index.html:/usr/share/nginx/html nginx
