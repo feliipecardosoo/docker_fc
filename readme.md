@@ -39,6 +39,7 @@ docker run -p minhaPorta:portaContainer imagem
 
 
 
-------------------------------------------------- BIG MOUNT -------------------------------------------------
+------------------------------------------------- BIND MOUNT -------------------------------------------------
 
-docker run -d -p 8080:80 -v $(pwd)/pasta/index.html:/usr/share/nginx/html nginx
+docker run -d -p 8080:80 -v $(pwd)/pasta:/usr/share/nginx/html nginx
+-- o parametro -v indica a criação de um bind mount, dps passo o parametro do caminho que esta a pasta no meu pc e dps o caminho da pasta no meu docker
