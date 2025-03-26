@@ -22,3 +22,12 @@ irei conseguir acessar o terminal de maneira iterativa
 
 -- docker run --rm imagem
 quando voce sair do container ele vai ser removido instantaneamente 
+
+
+
+-- docker ps -a -q 
+retorna todos os id de container
+
+
+-- consigo juntar um comando no outro
+docker rm $(docker ps -a -q)
