@@ -57,3 +57,7 @@ docker volume prune
 
 docker volume inspect nome
 -- retorna um json com volumes
+
+
+-- criei um volume e vou agrupar ele com o meu container:
+docker run -d -p 8080:80 -v felipe_volume:/usr/share/nginx/html nginx
