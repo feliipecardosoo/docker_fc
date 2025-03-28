@@ -49,6 +49,7 @@ docker run -d -p 8080:80 -v $(pwd)/pasta:/usr/share/nginx/html nginx
 
 docker volume create nome_volume
 -- criando um volume
+-- porem eu n preciso criar, eu posso crair um volume simplesmente colocando -v nome_volume na hora que criar um container
 
 
 docker volume prune
@@ -66,3 +67,8 @@ docker run -d -p 8080:80 -v felipe_volume:/usr/share/nginx/html nginx
 
 -- apos criar o volume, e no exemplo do codigo acima atribuir o volume para o container, voce consegue criar pastas no volume e apontar para o container
 docker cp $(pwd)/html/index.html 31c4483a3170:/usr/share/nginx/html   
+
+
+
+------------------- BACKUP DE VOLUMES ------------------------------
+
