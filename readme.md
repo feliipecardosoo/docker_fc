@@ -60,6 +60,7 @@ docker volume inspect nome
 
 
 -- criei um volume e vou agrupar ele com o meu container:
+-- no caso estou apontando para o volume e dps apontando para onde ira ficar no container, mas n preciso, posso colocar volume:/home de boas
 docker run -d -p 8080:80 -v felipe_volume:/usr/share/nginx/html nginx
 
 
